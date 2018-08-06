@@ -85,6 +85,10 @@
                         <viewLayoutGuide key="safeArea" id="3c5-yt-3v6"/>
                     </view>
                     <navigationItem key="navigationItem" title="Result" id="Wtq-yT-C8f"/>
+                    <connections>
+                        <outlet property="nameLabel" destination="zom-2D-szl" id="BBD-Kn-27t"/>
+                        <outlet property="scoreLabel" destination="nc8-cD-CRe" id="iAR-X8-uYf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oUM-dV-UCw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
