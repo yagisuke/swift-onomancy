@@ -14,6 +14,7 @@
 		AFA401A4211883F1005AAA2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA401A2211883F1005AAA2B /* LaunchScreen.storyboard */; };
 		AFA401AF211883F1005AAA2B /* appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA401AE211883F1005AAA2B /* appTests.swift */; };
 		AFA401BA211883F1005AAA2B /* appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA401B9211883F1005AAA2B /* appUITests.swift */; };
+		AFA401C821188E0F005AAA2B /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA401C721188E0F005AAA2B /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AFA401B5211883F1005AAA2B /* appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA401B9211883F1005AAA2B /* appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appUITests.swift; sourceTree = "<group>"; };
 		AFA401BB211883F1005AAA2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFA401C721188E0F005AAA2B /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				AFA40199211883F0005AAA2B /* AppDelegate.swift */,
 				AFA4019B211883F0005AAA2B /* ViewController.swift */,
+				AFA401C721188E0F005AAA2B /* ResultViewController.swift */,
 				AFA4019D211883F0005AAA2B /* Main.storyboard */,
 				AFA401A0211883F1005AAA2B /* Assets.xcassets */,
 				AFA401A2211883F1005AAA2B /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				AFA4019C211883F0005AAA2B /* ViewController.swift in Sources */,
 				AFA4019A211883F0005AAA2B /* AppDelegate.swift in Sources */,
+				AFA401C821188E0F005AAA2B /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

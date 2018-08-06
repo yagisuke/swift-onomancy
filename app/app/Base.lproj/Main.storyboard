@@ -54,7 +54,7 @@
         <!--Result-->
         <scene sceneID="BHX-AI-akZ">
             <objects>
-                <viewController id="HxX-sG-P6U" sceneMemberID="viewController">
+                <viewController id="HxX-sG-P6U" customClass="ResultViewController" customModule="app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S0r-HV-8Nf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
