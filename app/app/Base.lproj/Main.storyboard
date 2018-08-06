@@ -46,6 +46,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Name Score" id="b9l-hv-O60"/>
+                    <connections>
+                        <outlet property="nameText" destination="YeT-28-pug" id="Yjn-Hg-A39"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

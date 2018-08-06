@@ -9,6 +9,8 @@
 import UIKit
 
 class ResultViewController: UIViewController {
+    
+    var myName = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
