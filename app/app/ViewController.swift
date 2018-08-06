@@ -23,8 +23,14 @@ class ViewController: UIViewController {
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let resultVC = segue.destination as! ResultViewController
-        resultVC.myName = self.nameText.text!
+        guard let identifier = segue.identifier else {
+            return
+        }
+
+        if (identifier == "showResult") {
+            let resultVC = segue.destination as! ResultViewController
+            resultVC.myName = self.nameText.text!
+        }
     }
 }
 
