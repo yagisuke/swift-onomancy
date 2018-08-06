@@ -50,6 +50,7 @@ class ViewController: UIViewController {
         if (identifier == "showResult") {
             let resultVC = segue.destination as! ResultViewController
             resultVC.myName = self.nameText.text!
+            self.nameText.resignFirstResponder()
         }
     }
 }
